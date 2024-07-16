@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <span>
-        Copyright © 2024 &nbsp;&nbsp;&nbsp; Property of <b>Aman & Priya</b>.
+        Copyright © 2024 &nbsp;&nbsp;&nbsp; Exclusive Property of <b>Aman & Priya</b>.
       </span>
     </footer>
   );
