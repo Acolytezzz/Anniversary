@@ -25,7 +25,7 @@ function SideBar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitie">FOLLOW US</span>
+        <span className="sidebarTitie">FOLLOW PRIYA</span>
         <div className="sidebarSocial">
           <a
             href="https://www.facebook.com/profile.php?id=100055157615513"
