@@ -94,12 +94,30 @@
 }
 
 @media (max-width: 600px) {
+    .futurePostTitle {
+        margin: 10px 0px;
+        font-size: 24px;
+    }
+
+    .futurePostEdit {
+        font-size: 18px;
+    }
+
+    .futurePostInfo {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #b39656;
+        font-family: "Varela Round", sans-serif;
+    }
+
     .futureRow {
         flex-direction: column;
     }
 
     .futureColumn,
-    .futureColumnText {
+    .futureColumnText { 
         flex: 100%;
     }
 

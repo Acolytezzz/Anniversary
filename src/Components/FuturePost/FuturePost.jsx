@@ -8,11 +8,6 @@ function FuturePost() {
       <div className="futureDesktop">
         <div className="futurePost">
           <div className="futurePostWrapper">
-            {/* <img
-          src={image17}
-          alt="cutieeee"
-          className="futurePostImage"
-          /> */}
             <h1 className="futurePostTitle">
               OUR FUTURE TOGETHER
               <div className="futurePostEdit">
@@ -26,7 +21,6 @@ function FuturePost() {
               </span>
               <span className="futurePostDate">Written with Love</span>
             </div>
-            {/* <p className="futurePostDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae officiis voluptate eveniet expedita? Optio repellat hic temporibus perferendis? Omnis iusto culpa facere, repudiandae porro nemo explicabo doloremque nostrum commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae officiis voluptate eveniet expedita? Optio repellat hic temporibus perferendis? Omnis iusto culpa facere, repudiandae porro nemo explicabo doloremque nostrum commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae officiis voluptate eveniet expedita? Optio repellat hic temporibus perferendis? Omnis iusto culpa facere, repudiandae porro nemo explicabo doloremque nostrum commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae officiis voluptate eveniet expedita? Optio repellat hic temporibus perferendis? Omnis iusto culpa facere, repudiandae porro nemo explicabo doloremque nostrum commodi.</p> */}
             <div className="futureRow">
               <div className="futureColumn futureColumnText">
                 <h3 className="futurePostHead">Forever Love</h3>
@@ -76,22 +70,21 @@ function FuturePost() {
       <div className="futureMobile">
         <div className="futurePost">
           <div className="futurePostWrapper">
-            <h1 className="futurePostTitle">
-              OUR FUTURE TOGETHER
-              <div className="futurePostEdit">
-                <i className="futurePostIcon fa-solid fa-pen-to-square"></i>
-                <i className="futurePostIcon fa-solid fa-heart"></i>
-              </div>
-            </h1>
-            <div className="futurePostInfo">
-              <span className="futurePostAuthor">
-                Author: <b>Aman</b>
-              </span>
-              <span className="futurePostDate">Written with Love</span>
-            </div>
-
             {/* First Section */}
             <div className="futureColumnText">
+              <h1 className="futurePostTitle">
+              OUR FUTURE TOGETHER
+                <div className="futurePostEdit">
+                  <i className="futurePostIcon fa-solid fa-pen-to-square"></i>
+                  <i className="futurePostIcon fa-solid fa-heart"></i>
+                </div>
+              </h1>
+              <div className="futurePostInfo">
+                <span className="futurePostAuthor">
+                  Author: <b>Aman</b>
+                </span>
+                <span className="futurePostDate">Written with Love</span>
+              </div>
               <h3 className="futurePostHead">Forever Love</h3>
               <p className="futurePostDesc">
                 Looking ahead fills my heart with joy and anticipation. I
@@ -102,8 +95,12 @@ function FuturePost() {
                 aspiration is to give you the world, because you deserve nothing
                 less.
               </p>
+              <img
+                src={image15}
+                alt="cutieeee"
+                className="storyPostImgColumn"
+              />
             </div>
-            <img src={image15} alt="cutieeee" className="futurePostImgColumn" />
 
             {/* Second Section */}
             <div className="futureColumnText">
@@ -117,8 +114,12 @@ function FuturePost() {
                 you, I am the happiest and most fulfilled. Here's to our future,
                 filled with love, happiness, and endless possibilities.
               </p>
+              <img
+                src={image47}
+                alt="cutieeee"
+                className="storyPostImgColumn"
+              />
             </div>
-            <img src={image47} alt="cutieeee" className="futurePostImgColumn" />
           </div>
         </div>
       </div>
