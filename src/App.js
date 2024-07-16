@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home/Home";
 import TopBar from "./Components/TopBar/TopBar";
 import Write from "./Pages/Write/Write";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Story from "./Pages/Story/Story";
 import Future from "./Pages/Future/Future";
 import Gallery from "./Pages/Gallery/Gallery";
@@ -13,20 +13,19 @@ import AnniversaryPage from "./Pages/Relationship/AnniversaryPage/AnniversaryPag
 import Footer from "./Components/Footer/Footer";
 
 function App() {
-
   return (
     <Router>
       <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/write" element={<Write /> } />
-        <Route path="/story" element={<Story /> } />
-        <Route path="/future" element={<Future /> } />
-        <Route path="/gallery" element={<Gallery /> } />
-        <Route path="/early" element={<EarlyPage /> } />
-        <Route path="/mid" element={<MidPage /> } />
-        <Route path="/late" element={<LatePage /> } />
-        <Route path="/anniversary" element={<AnniversaryPage /> } />
+        <Route path="/write" element={<Write />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/future" element={<Future />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/early" element={<EarlyPage />} />
+        <Route path="/mid" element={<MidPage />} />
+        <Route path="/late" element={<LatePage />} />
+        <Route path="/anniversary" element={<AnniversaryPage />} />
       </Routes>
       <Footer />
     </Router>

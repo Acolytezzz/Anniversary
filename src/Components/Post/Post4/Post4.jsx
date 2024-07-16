@@ -8,7 +8,7 @@ function Post4() {
       <img
         className="postImg"
         src={image49}
-        alt="image"
+        alt="49"
       />
       <div className="postInfo">
         <span className="postTitle">

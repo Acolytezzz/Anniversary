@@ -8,7 +8,7 @@ function Post2() {
       <img
         className="postImg"
         src={image26}
-        alt="image"
+        alt="26"
       />
       <div className="postInfo">
         <span className="postTitle">

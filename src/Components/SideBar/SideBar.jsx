@@ -6,7 +6,7 @@ function SideBar() {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">🌟 Meet Priya 🌟</span>
-        <img className="sidebarImg" src={image21} alt="image" />
+        <img className="sidebarImg" src={image21} alt="21" />
         <p>
           Priya is the heart of the story. Her energetic spirit and sweet nature
           make every day brighter. She is incredibly kind and deeply emotional,
