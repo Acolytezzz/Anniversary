@@ -1,5 +1,4 @@
 import "./StoryPost.css";
-import image17 from "../../images/image17.jpg";
 import image5 from "../../images/image5.jpg";
 import image45 from "../../images/image45.jpg";
 import image19 from "../../images/image19.jpg";

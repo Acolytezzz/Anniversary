@@ -1,5 +1,4 @@
 import "../Relationship.css";
-import image31a from "../../../images/image31a.jpg";
 import image49a from "../../../images/image49a.jpg";
 import { Link } from "react-router-dom";
 

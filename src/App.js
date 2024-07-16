@@ -10,7 +10,6 @@ import EarlyPage from "./Pages/Relationship/EarlyPage/EarlyPage";
 import MidPage from "./Pages/Relationship/MidPage/MidPage";
 import LatePage from "./Pages/Relationship/LatePage/LatePage";
 import AnniversaryPage from "./Pages/Relationship/AnniversaryPage/AnniversaryPage";
-import TestGallery from "./TestFiles/TestGallery/TestGallery";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
         <Route path="/mid" element={<MidPage /> } />
         <Route path="/late" element={<LatePage /> } />
         <Route path="/anniversary" element={<AnniversaryPage /> } />
-        <Route path="/test" element={<TestGallery /> } />
       </Routes>
       <Footer />
     </Router>

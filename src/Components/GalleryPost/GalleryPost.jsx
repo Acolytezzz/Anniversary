@@ -16,38 +16,46 @@ function GalleryPost() {
           <img
             class="img imgSide"
             src={image2}
+            alt="image"
           />
           <img
             class="img imgSide"
             src={image50a}
+            alt="image"
           />
           <img
             class="img img-last imgSide"
             src={image11}
+            alt="image"
           />
         </div>
         <div class="responsive-container-block img-cont">
           <img
             class="img img-big imgMiddle"
             src={image40}
+            alt="image"
           />
           <img
             class="img img-big img-last imgMiddle"
             src={image37}
+            alt="image"
           />
         </div>
         <div class="responsive-container-block img-cont">
           <img
             class="img imgSide"
             src={image4}
+            alt="image"
           />
           <img
             class="img imgSide"
             src={image34}
+            alt="image"
           />
           <img
             class="img imgSide"
             src={image36}
+            alt="image"
           />
         </div>
       </div>

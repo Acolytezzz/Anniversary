@@ -1,5 +1,4 @@
 import "./FuturePost.css";
-import image17 from "../../images/image17.jpg";
 import image15 from "../../images/image15.JPG";
 import image47 from "../../images/image47.jpg";
 

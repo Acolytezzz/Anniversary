@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "../Post.css";
-import image31 from "../../../images/image31.jpg"
 import image49 from "../../../images/image49.jpg"
 
 function Post4() {
@@ -9,7 +8,7 @@ function Post4() {
       <img
         className="postImg"
         src={image49}
-        alt=""
+        alt="image"
       />
       <div className="postInfo">
         <span className="postTitle">

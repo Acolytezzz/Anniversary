@@ -1,15 +1,12 @@
 import "./SideBar.css";
-import image21 from "../../images/image21.jpg"
+import image21 from "../../images/image21.jpg";
 
 function SideBar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">🌟 Meet Priya 🌟</span>
-        <img
-          className="sidebarImg"
-          src={image21}
-        />
+        <img className="sidebarImg" src={image21} alt="image" />
         <p>
           Priya is the heart of the story. Her energetic spirit and sweet nature
           make every day brighter. She is incredibly kind and deeply emotional,
@@ -33,6 +30,7 @@ function SideBar() {
           <a
             href="https://www.facebook.com/profile.php?id=100055157615513"
             target="_blank"
+            rel="noopener noreferrer"
             className="link"
           >
             <i className="sidebarIcon fa-brands fa-square-facebook"></i>
@@ -40,11 +38,17 @@ function SideBar() {
           <a
             href="https://www.instagram.com/priyaaxo__/"
             target="_blank"
+            rel="noopener noreferrer"
             className="link"
           >
             <i className="sidebarIcon fa-brands fa-square-instagram"></i>
           </a>
-          <a href="" target="_blank" className="link">
+          <a
+            href="https://www.snapchat.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link"
+          >
             <i className="sidebarIcon fa-brands fa-square-snapchat"></i>
           </a>
         </div>
