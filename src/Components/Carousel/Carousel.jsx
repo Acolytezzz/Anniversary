@@ -5,14 +5,9 @@ function Carousel() {
     <div id="carousel">
       <div id="container">
         <div>
-          <div className="content desktop">
+          <div className="content">
             <h2>HOT</h2>
             <span>Unstoppable allure</span> 
-          </div>
-          <div className="content mobile">
-            <h2>HOT</h2>
-            <span>Unstoppable</span> 
-            <span>allure</span> 
           </div>
         </div>
         <div>
@@ -22,14 +17,9 @@ function Carousel() {
           </div>
         </div>
         <div>
-          <div className="content desktop">
+          <div className="content">
             <h2>SASSY</h2>
             <span>Bringing the spice</span>
-          </div>
-          <div className="content mobile">
-            <h2>SASSY</h2>
-            <span>Bringing the</span>
-            <span>spice</span>
           </div>
         </div>
         <div>
