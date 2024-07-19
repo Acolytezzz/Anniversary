@@ -76,3 +76,43 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    #carousel {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        >div {
+            &:nth-of-type(2) {
+                background: url(../../images/image20a.jpg) no-repeat 50% / cover;
+            }
+
+            &:nth-of-type(3) {
+                background: url(../../images/image3a.jpg) no-repeat 50% / cover;
+            }
+
+            &:nth-of-type(4) {
+                background: url(../../images/image35a.jpg) no-repeat 50% / cover;
+            }
+
+            .content {
+                font-size: 1.2rem;
+    
+                span {
+                    font-size: 1rem;
+                }
+            }
+
+            &:hover {
+                flex: 0 0 180px;
+                box-shadow: 1px 3px 15px #7645d8;
+                transform: translatey(-30px);
+            }
+        }
+    }
+}
