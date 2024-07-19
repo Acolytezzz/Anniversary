@@ -20,7 +20,7 @@ function TopBar() {
         >
           <i className="topIcon fa-brands fa-square-instagram"></i>
         </a>
-        <a href="https://www.snapchat.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://snapchat.com/t/lLWl4zSS" target="_blank" rel="noopener noreferrer">
           <i className="topIcon fa-brands fa-square-snapchat"></i>
         </a>
       </div>

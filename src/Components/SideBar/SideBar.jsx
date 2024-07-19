@@ -44,7 +44,7 @@ function SideBar() {
             <i className="sidebarIcon fa-brands fa-square-instagram"></i>
           </a>
           <a
-            href="https://www.snapchat.com/"
+            href="https://snapchat.com/t/lLWl4zSS"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
