@@ -77,6 +77,10 @@
     }
 }
 
+.mobile{
+    display: none;
+}
+
 @media (max-width: 600px) {
     #carousel {
         margin: 0px;
@@ -114,5 +118,9 @@
                 transform: translatey(-30px);
             }
         }
+    }
+
+    .desktop{
+        display: none;
     }
 }
